@@ -1,10 +1,12 @@
 <template>
+  <MainView></MainView>
 <Contador></Contador>
+<ListaDeTareas> </ListaDeTareas>
 </template>
 
 <!-- se recomienda poner el script setup  debajo del template-->
 <script setup>
-import Contador from './components/Contador.vue';
+import MainView from './views/MainView.vue';
 
 </script>
 
